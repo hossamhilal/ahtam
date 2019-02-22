@@ -1,0 +1,4159 @@
+/*=================================================================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+/*===========================| DESIGNED BY  HOSSAM HILAL |=========================*/
+/*=================================================================================*/
+/*=================================================================================*/
+/*====================================|| 2018 ||===================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+
+
+
+
+@font-face
+{
+  font-family: 'Cairo';
+  src: url('../fonts/Cairo-Regular.eot');
+  src: url('../fonts/Cairo-Regular.woff2') format('woff2'),
+       url('../fonts/Cairo-Regular.woff') format('woff'),
+       url('../fonts/Cairo-Regular.ttf') format('truetype'),
+       url('/fonts/Cairo-Regular.svg.Cairo-Regular') format('svg'),
+       url('/fonts/Cairo-Regular.eot?.iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: 'Cairo-Bold';
+  src: url('../fonts/Cairo-Bold.eot');
+  src: url('../fonts/Cairo-Bold.woff2') format('woff2'),
+       url('../fonts/Cairo-Bold.woff') format('woff'),
+       url('../fonts/Cairo-Bold.ttf') format('truetype'),
+       url('../fonts/Cairo-Bold.svg.Cairo-Bold') format('svg'),
+       url('../fonts/Cairo-Bold.eot?.iefix') format('embedded-opentype');
+     
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body
+{
+    direction: rtl;
+    font-family: 'Cairo';
+    background: url(../images/BG.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.BG-COLOR { background: #fff8f8 !important; direction: rtl;}
+
+a {color: #fff; text-decoration: none !important; }
+
+a:hover {    color: #fff;}
+
+.submit-btn { color: #fff !important; }
+
+.ahtam-dark-btn
+{
+    width: 100%;
+    margin: 10px 0;
+    background: #a7523c;
+    text-align: center;
+    border-radius: 8px;
+    height: 35px;
+    font-size: 12px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.26);
+}
+
+.ahtam-light-btn
+{
+    width: 100%;
+    margin: 10px 0;
+    background: #ce8f7e;
+    text-align: center;
+    border-radius: 8px;
+    height: 35px;
+    font-size: 12px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.26);
+}
+
+.ahtam-dark-btn:focus ,
+.ahtam-light-btn:focus
+{
+    box-shadow: none;
+}
+
+.form-control 
+{
+  height: 35px;
+  border-radius: 8px;
+  line-height: 35px;
+  font-size: 12px;
+  margin-bottom: 10px;
+    color: #585858;
+}
+
+.form-control:focus 
+{
+    box-shadow: 0px 1px 2px 0px rgba(165, 113, 113, 0.3);
+    border: 1px solid #cc8080;
+}
+
+.nice-select 
+{
+  width: 100%;
+  height: 35px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  line-height: 35px;
+  text-align: right !important;
+  padding: 0 10px !important;
+  border: 1px solid #ced4da !important;
+}
+
+.nice-select .current {    color: #585858; font-size: 12px;}
+
+.nice-select .list {  right: 0;   text-align: center;  }
+
+.nice-select .option 
+{   
+    line-height: 30px;    
+    min-height: 30px;  
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.nice-select::after
+{
+    border-bottom: 2px solid #d8cdcd;
+    border-right: 2px solid #d8cdcd;
+    height: 8px;
+    left: 12px;
+    right: auto;
+    width: 8px;
+}
+
+.nice-select .option:hover, 
+.nice-select .option.focus,
+.nice-select .option.selected.focus 
+{
+    background-color: #e9cdcd;
+    color: #a15858;
+}
+
+
+/*
+colors
+
+   first         color   : #ce8f7e ;
+   second        color   : #a15858 ;
+                         : #a7523c ;
+   header name           : #8c2e3c ;
+
+  
+*/
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*==============================================//  HOME PAGE   //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.home-page 
+{
+  padding: 50px 20px;
+}
+
+
+ .logo
+{
+  margin-bottom: 60px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.logo img
+{
+  height: 50px;
+  width: 110px;
+  margin: auto;
+}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*============================================// LOG REGISTER PAGE  //=============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.log-reg-page 
+{
+  padding: 20px;
+}
+
+.log-reg-page .logo
+{
+  margin: 10px 20px 20px;
+}
+
+
+
+.log-box p 
+{
+  font-size: 10px;
+  margin: 5px 0 0 0;  
+}
+
+.log-box p a {  color: #a7523c !important;}
+
+.log-box .btn 
+{
+  margin: 0;
+}
+
+.or 
+{
+  margin: 10px 0;
+  position: relative;
+}
+
+.or p
+{
+  background: #fff;
+  width: 30px;
+  z-index: 3333;
+  height: 30px;
+  border-radius: 50%;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+  font-size: 11px;
+  position: relative;
+  color: #ce8f7e;
+}
+
+.or::after 
+{
+  content: "";
+  height: 1px;
+  width: 100%;
+  right: 0;
+  left: 0;
+  position: absolute;
+  background: #e9ac9b;
+  top: 15px;
+  z-index: 0;
+}
+
+.cteate-account h4
+{
+  font-size: 13px;
+  text-align: center;
+  width: 135px;
+  margin: 20px auto;
+  color: #a7523c;
+  font-family: 'cairo-bold';
+}
+
+.cteate-account h4 a 
+{
+  float: left;
+  color: #a7523c !important;
+  text-decoration: underline !important;
+  font-size: 13px !important;
+}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*===========================================//   FORGET PASSWORD  //==============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.forget-pass-box
+{
+  padding-top: 80px;
+}
+
+.forget-pass-box .logo 
+{
+  margin-bottom: 50px;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*===========================================//          Header   //===============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.ahtam-header {
+
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9;
+    box-shadow: 0px -4px 5.46px 2.54px rgba(0, 0, 0, 0.14);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.ahtam-header .icofont 
+{
+  color: #ce8f7e;
+  font-size: 25px;
+    height: 50px;
+  line-height: 60px;
+}
+
+
+.ahtam-header .head-logo
+{
+    padding: 0px;  
+    color: #ce8f7e;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.head-logo .icofont-filter 
+{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    left: 20px;
+    top: 2px;
+}
+
+.back-sign .icofont-filter { left: 45px !important; }
+
+.head-logo .ico-return {
+    position: absolute;
+    top: -3px;
+    left: 8px;
+    font-size: 28px;
+}
+
+
+.head-logo p
+{
+    margin: 0;
+    color: #8c2e3e;
+    width: 90%;
+    font-size: 14px;
+}
+
+.head-logo img {
+
+    height: 30px;
+    width: 80px;
+    margin: auto;
+
+}
+
+.ahtam-header .menu 
+{
+    position: absolute;
+    right:14px;
+    top: -5px;
+    text-align: right;
+}
+
+.nav .ico-close 
+{
+    position: absolute;
+    left: 11px;
+    top: 7px;
+    color: #fff;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+
+.nav 
+{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    background-color: #8c2e3c;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    height: 100vh;
+    z-index: 9999;
+}
+
+.nav.nav-view {    transform: translateX(0);  }
+
+.nav ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.nav ul li 
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav ul li a
+{
+    color: #fff;
+    text-align: right;
+    padding: 12px 40px 12px 20px;
+    border-bottom: none;
+}
+
+.dropdown-item img
+{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    text-align: right;
+}
+
+
+
+.dropdown-item:hover ,
+.dropdown-item:focus 
+{
+    color: #fff;
+    text-decoration: none;
+    background-color: #741825;
+
+}
+
+
+.nav-overlay {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//      USR MAIN     //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.main-page
+{
+    padding: 70px 0 0 0;
+}
+
+
+.categ-box 
+{
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 2.01px 0.99px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(158, 124, 107, 0.11);
+}
+
+.categ-box ul 
+{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  line-height: 46px;
+  margin: 0; 
+}
+
+.categ-box ul li:nth-child(1)
+{
+  width: 60px;
+  text-align: right;
+  height: 50px;
+}
+
+.categ-box li img {
+    width: 50px;
+    height: 50px;
+}
+
+.categ-box h4 
+{
+    margin: 18px 0 0 0;
+    font-size: 13px;
+    font-family: 'cairo-bold';
+    color: #4a4a4a;
+}
+
+.categ-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.main-page .row .col-6:nth-child(1) {    padding-left: 5px;  }
+.main-page .row .col-6:nth-child(2) {    padding-right: 5px; }
+
+.fc { background: #ffeee7 !important;}
+.sc { background: #ffdad9 !important;}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*========================================//   SALON SERVICES PAGE   //============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.salon-serv-page 
+{
+   padding: 70px 10px 0 10px;
+}
+
+ 
+.salon-serv-page .col-6
+{
+    padding: 0 5px;
+}
+
+.salon-serv-page h4 
+{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card.card-body p label 
+{
+  font-size: 13px;
+  margin: 0;
+}
+
+.centerpage-servicebox .card p .checkmark 
+{
+  left: 0;
+  top: 5px;
+  border-radius: 0;
+}
+
+.centerpage-servicebox .card .checkmark::before ,
+.centerpage-servicebox .card .checkmark::after
+{
+  border-radius: 0;
+}
+
+.open-my-calender {
+/*
+    display: none;
+    position: absolute;
+    left: 37px;
+    top: 2px;
+*/
+}
+
+/*
+.centerpage-servicebox .card  .checkmark:checked  +  .open-my-calender { display: block !important;}
+
+.answer input:checked ~ .open-my-calender { display: block !important;}
+*/
+
+.opendate {
+
+    text-align: center !important;
+    padding: 10px !important;
+
+}
+
+.opendate a {
+
+    width: 100% !important;
+    text-align: center !important;
+
+}
+
+
+.add-ico-ok { position: relative;}
+
+.add-ico-ok::after 
+{
+    background: #bd3e67;
+    border-radius: 50%;
+    position: absolute;
+    top: 1px;
+    content: "\2713";
+    width: 18px;
+    height: 18px;
+    left: 1px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*===========================================//       SALON     //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.salon-page 
+{
+   padding: 70px 0 0 0;
+}
+
+
+.salon-categ-box span {
+  text-align: left;
+  direction: ltr;
+}
+
+
+
+.user-stars {
+    border-right: 1px solid #bdb1b1;
+    border-left: 1px solid #bdb1b1;
+    border-radius: 15px;
+    max-width: 125px;
+    margin: auto;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+    text-align: center;
+    float: left;
+    padding: 0 3px;
+    height: 20px;
+    line-height: 20px;
+}
+
+ .user-stars label {
+    font-size: 18px;
+    padding: 0;
+    color: #dedddd;
+    height: 20px;
+    line-height: 20px;
+}
+
+.user-stars  input[type="radio"] {
+  display: none;
+}
+
+.user-stars  label:hover,
+.user-stars  label:hover ~ label
+{
+  color: orange;
+}
+
+.user-stars  input[type="radio"]:checked ~ label
+{
+  color: orange;
+}
+
+.orange { color: orange;}
+
+
+.salon-categ-box 
+{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+    background: #fff;
+    color: #756765;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.salon-categ-box img {
+    width: 100%;
+    height: 120px;
+}
+
+.salon-categ-box p
+{
+    padding: 10px;
+    text-align: right;
+    margin: 0;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.salon-categ-box ul
+{
+  list-style: none;
+  display: flex;
+  text-align: right;
+  padding: 0 10px;
+}
+
+.salon-categ-box ul li:nth-child(1) 
+{
+  margin-left: 15px;
+}
+
+.salon-categ-box ul .icofont 
+{
+  color: #d6a294;
+}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*==========================================//     CENTER   PAGE  //===============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.click-fav-icon.favourited .icofont{ color: #ea7373;}
+
+
+.center-page
+{
+  padding: 50px 0 0 0;
+}
+
+.center-page .container
+{
+  padding: 0;
+}
+
+.center-pag-head img 
+{
+  height: 200px;
+  width: 100%;
+}
+
+.center-pag-head .click-fav-icon
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    margin: 0;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+.center-pag-head
+{
+  position: relative;
+}
+
+.center-pag-head .icofont
+{
+  color: #e7e4e4;
+}
+
+.center-tabs li:last-child 
+{
+  border: 0;
+}
+
+.center-tabs ul 
+{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+
+
+.center-tabs ul li
+{
+    text-align: center;
+    border-left: 1px solid #c69898;
+    height: 40px;
+    background: #d6a294;
+    line-height: 40px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    width: 25%; 
+}
+
+
+    
+.center-pag-body 
+{
+  padding: 15px;
+}
+
+.hide-cent-box { display: none;}
+
+.center-pag-body ul 
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.center-data-box
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.center-data-box.info label
+{
+  color: #8c2e3e;
+  margin: 0 0 0 10px;
+  width: 40%;
+  font-size: 13px;
+  padding: 0;
+  line-height: 0 !important;
+  font-weight: 600;
+}
+
+.cent-act-tab
+{
+  background: #8c2e3e !important;
+}
+
+.center-data-box.info ul span
+{
+  width: 60%;
+  text-align: right;
+  font-size: 11px;
+  position: absolute;
+  left: 0;
+  top: 16px;
+}
+
+.center-data-box.info ul li
+{
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px solid #f3f3f3;
+  height: 50px;
+}
+
+.center-data-box.info ul li:first-child span
+{
+  top: auto !important;
+}
+
+
+.center-data-box .icofont 
+{
+  color: #d6a294;
+  width: 15px;
+  margin-left: 0px;
+}
+
+
+.center-data-box p 
+{
+  color: #8c2e3e;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.center-data-box img
+{
+  height: 30px;
+  width: 30px;
+}
+
+.center-social ul
+{
+  display: flex;
+  text-align: center !important;
+  margin: auto;
+  width: 100px;
+}
+
+.center-social li
+{
+    margin-left: 10px;
+}
+
+.center-social
+{
+  text-align: center !important;
+}
+
+.center-validate
+{
+  text-align: center;
+}
+
+.center-validate ul
+{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+}
+
+
+.cent-map-box p { margin: 0; padding: 0px 10px;}
+
+.center-data-box .go-to-map
+{
+  float: left;
+  font-size: 20px;
+}
+
+.center-validate .user-stars 
+{
+  float: none;
+  border: 0;
+}
+
+.center-validate p 
+{
+  margin-bottom: 3px;
+}
+
+.center-validate .form-control 
+{
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 1px 1px 0px rgba(0, 0, 0, 0.24);
+    height: 100px;
+    resize: none;
+}
+
+.center-validate .btn
+{
+  width: 100px;
+}
+
+
+.center-comments h5
+{
+  font-size: 14px;
+  font-weight: 600;
+  color: #8c2e3e;
+  margin: 5px 5px 20px;
+}
+
+
+.usr-comment .col-2
+{
+  padding: 0;
+  text-align: right;
+}
+
+
+.usr-comment .row 
+{
+  margin: 0;
+}
+
+
+.usr-comment .col-2 img 
+{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.usr-comment .col-10 
+{
+  padding-left: 0;
+}
+
+.usr-comment p
+{
+  margin: 0 0 5px 0;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+}
+
+
+.usr-comment legand
+{
+  font-size: 12px;
+}
+
+
+.usr-comment legend
+{
+  font-size: 12px;
+  width: 130px;
+  font-weight: 600;
+}
+
+
+.usr-comment .usr-stars
+{
+  float: none;
+}
+
+
+.usr-comment
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.usr-comment .user-stars label {  font-size: 14px !important; }
+
+.usr-comment:last-child
+{
+    border: 0;
+}
+
+#map-container {
+    width: 100% !important;
+    margin-top: 30px;
+    height: 250px !important;
+    display: none;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================// CENTER PACKAGES PAGE  //=============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+
+.centerpage-packagebox ,
+.centerpage-offerbox 
+{
+  background: #fff;
+  padding:10px 20px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  margin: 10px 0;
+  text-align: right;
+}
+
+.centerpage-packagebox .price img ,
+.centerpage-offerbox .price img ,
+.centerpage-servicebox img
+{
+  width: 15px;
+  height: 15px;
+  margin-left: 8px;
+}
+
+.centerpage-packagebox p ,
+.centerpage-offerbox p 
+{
+  color: #8c2e3e;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.centerpage-packagebox ul ,
+.centerpage-offerbox ul
+{
+    display: block;
+    text-align: right;
+    padding-right: 20px;
+    width: 100%;
+}
+
+.centerpage-packagebox li ,
+.centerpage-offerbox li 
+{
+    color: #585858;
+    font-size: 13px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.centerpage-packagebox .price ,
+.centerpage-offerbox .price
+{
+    float: left;
+    direction: initial;
+    font-size: 12px;
+}
+
+.centerpage-packagebox .price label ,
+.centerpage-offerbox .price label
+{
+  margin-left: 5px;
+}
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//  CENTER OFFER PAGE    //=============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.offer-interval ul 
+{
+  padding: 0;
+}
+
+
+.offer-interval .icofont 
+{
+  float: right;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 10px;
+}
+
+
+.offer-interval span
+{
+    margin-right: 10px;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=======================================//  CENTER SERVICES  PAGE  //=============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.centerpage-servicebox
+{
+    margin: 20px 0;
+}
+
+
+.centerpage-servicebox .btn
+{
+      padding: 6px 15px 6px 10px;
+      margin: 0;
+      background: #fff;
+      color: #8c2e3e;
+      box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+      border-radius: 10px;
+      text-align: right;
+      width: 100%;
+      position: relative;
+}
+
+.centerpage-servicebox .btn:focus 
+{
+    outline: 0;
+    box-shadow: 0;
+}
+
+.centerpage-servicebox .icofont-rounded-down
+{
+    position: absolute;
+    font-size: 23px;
+    margin-top: 2px;
+    left: 9px;
+}
+
+
+.centerpage-servicebox .card
+{
+    padding:3px  10px;
+    border-radius: 10px;
+    border: 0;
+    background: #fff7f7;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+    text-align: right;
+    margin: 20px 10px;
+}
+
+.centerpage-servicebox .card p 
+{
+    color: #8c2e3e;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.centerpage-servicebox .card p .icofont 
+{
+    float: left;
+    margin-top: 1px;
+    font-size: 22px;
+    color: #847e7e;
+    cursor: pointer;
+}
+
+.centerpage-servicebox .card ul 
+{
+    display: flex;
+    font-size: 12px;
+}
+
+
+.centerpage-servicebox .card ul li
+{
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.centerpage-servicebox .card ul .icofont 
+{
+    float: right;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+
+.centerpage-servicebox .card ul img
+{
+    height: 12px;
+    float: right;
+    margin-top: 5px;
+}
+
+
+.cols-rotate
+{
+    transform: rotate(180deg);
+    transition: all .5s ease-in-out;
+}
+
+
+
+.opendate .btn {
+    max-width: 300px;
+    margin: 0px auto 0 auto;
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    text-align: center;
+}
+
+
+
+.input-append.date.form_datetime input {
+    height: 40px;
+    margin-right: 10px;
+    background: #fff;
+	border-radius: 5px;
+}
+
+
+
+.opendate {
+  direction: ltr;
+	border-radius: 10px;
+}
+
+.input-append {
+  display: flex;
+  margin: 10px 10px;
+  padding: 0;
+}
+
+.opendate .row {
+  max-width: 400px;
+  margin: auto;
+}
+
+.input-append .icofont {
+  margin-left: -36px;
+  font-size: 20px;
+  display: block;
+  margin-top: -2px;
+	line-height: 40px;
+}
+
+.dow , .datetimepicker th.switch{
+    color: #8c2e3e;
+}
+
+.datetimepicker table tr td span.active:active ,
+.datetimepicker table tr td span.active:hover:active,
+.datetimepicker table tr td span.active.disabled:active, 
+.datetimepicker table tr td span.active.disabled:hover:active,
+.datetimepicker table tr td span.active.active, .datetimepicker table tr td span.active:hover.active, 
+.datetimepicker table tr td span.active.disabled.active,
+.datetimepicker table tr td span.active.disabled:hover.active ,
+.datetimepicker table tr td.active:active, 
+.datetimepicker table tr td.active:hover:active,
+.datetimepicker table tr td.active.disabled:active,
+.datetimepicker table tr td.active.disabled:hover:active,
+.datetimepicker table tr td.active.active, .datetimepicker table tr td.active:hover.active, 
+.datetimepicker table tr td.active.disabled.active,
+.datetimepicker table tr td.active.disabled:hover.active ,
+.datetimepicker table tr td.active, 
+.datetimepicker table tr td.active:hover, 
+.datetimepicker table tr td.active.disabled, 
+.datetimepicker table tr td.active.disabled:hover ,
+.datetimepicker table tr td.active:active,
+.datetimepicker table tr td.active:hover:active,
+.datetimepicker table tr td.active.disabled:active, 
+.datetimepicker table tr td.active.disabled:hover:active,
+.datetimepicker table tr td.active.active, .datetimepicker table tr td.active:hover.active, 
+.datetimepicker table tr td.active.disabled.active, .datetimepicker table tr td.active.disabled:hover.active 
+{
+
+	background: #8c2e3e !important;
+    background-color: #8c2e3e !important;
+    border-color:  #8c2e3e !important;
+
+}
+
+.datetimepicker table tr td.day:hover {
+    background: #fee1e1;
+    cursor: pointer;
+}
+
+.datetimepicker
+{
+    direction: ltr;
+/*    left: 43px !important;*/
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+}
+
+.datetimepicker td, .datetimepicker th
+{
+    text-align: center;
+    width: 30px;
+	height: 30px;
+}
+
+.bootstrap-datetimepicker-widget { width: auto; direction: ltr;}
+
+.opendate .ahtam-light-btn {
+    background: #ce8f7e;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*================================//   USER RESERVICES PAGE     //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.reservices-page 
+{
+    padding: 70px 0 0 0;
+}
+
+
+.usr-resirv-box 
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: right;
+  font-size: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+.usr-resirv-box ul 
+{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-right: 15px;
+  color: #363636;
+    font-size: 13px;
+}
+
+.usr-resirv-box .icofont 
+{
+  color: #8c2e3e;
+  width: 15px;
+  float: right;
+  margin-left: 10px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.usr-resirv-box h5
+{
+  color: #8c2e3e;
+  font-size: 15px;
+}
+
+.usr-resirv-box img 
+{
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+}
+
+.usr-resirv-box .time-start 
+{
+  margin-left: 10px;
+}
+
+.usr-resirv-box  legand 
+{
+  margin-left: 5px;
+}
+
+.usr-resirv-box ul li
+{
+  height: 25px;
+  line-height: 25px;
+}
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=======================================//  USER RESERVATION DETAILS  PAGE   //===================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.usr-resirv-details-box
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: right;
+  font-size: 14px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+.usr-resirv-details-box label
+{
+  margin-left: 10px;
+  font-weight: 600;
+  color: #8c2e3e;
+  width: 80px;
+    font-size: 13px;
+}
+
+.usr-resirv-details-box p
+{
+  margin-bottom: 5px;
+}
+
+.usr-resirv-details-box  .time-start legand 
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.usr-resirv-details-box .serv-data
+{
+    margin-right: 94px;
+    position: relative;
+    padding-right: 20px;
+}
+
+.fr-res-box p:nth-child(2) span ,
+.fr-res-box p:nth-child(3) span 
+{
+    font-size: 12px;
+}
+
+.usr-resirv-details-box .serv-data .icofont 
+{
+    position: absolute;
+    right: 0;
+    line-height: 20px;
+}
+
+.usr-resirv-details-box img 
+{
+  height: 15px;
+  width: 15px;
+}
+
+.usr-resirv-details-box h5
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: #8c2e3e;
+    margin-bottom: 15px;
+}
+
+.usr-resirv-details-box ul
+{
+  list-style: none;
+  padding: 0;
+}
+
+.usr-resirv-details-box ul li
+{
+  display: flex;
+  font-size: 12px;
+  background: #fff7f7;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+}
+
+
+
+.usr-resirv-details-box li .icofont 
+{
+  float: right;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 5px;
+}
+
+
+.usr-resirv-details-box li legand
+{
+  margin-left: 20px;
+}
+
+.usr-resirv-details-box li span 
+{
+  margin-left: 6px;
+}
+
+.usr-resirv-details-box .total-price {
+    border-top: 3px solid #f3f3f3;
+    margin-top: 40px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.usr-resirv-details-box .total-price p
+{
+  font-size: 14px;
+  font-weight: 600;
+  color: #8c2e3e;
+}
+
+
+.usr-resrv-total-price
+{
+  float: left;
+  font-size: 13px;
+  color: #3f3f3f;
+  font-weight: 500;
+}
+
+.usr-resrv-total-price img {
+    float: right;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*====================================//      OFFER DETAILS PAGE     //============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+
+.offer-detpage-data 
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  text-align: right;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+
+.offer-detpage-data p 
+{
+  margin: 0;
+}
+
+
+.offer-detpage-data img , .offer-detpage-data .icofont 
+{
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+  color: #d6a294;
+}
+
+
+.offer-detpage-data label
+{
+  width: 75px;
+  font-family: 'cairo-bold';
+  color: #8c2e3e;
+  font-size: 13px;
+}
+
+
+.offer-detpage-data legand
+{
+  margin-left: 3px;
+}
+
+
+.offer-detpage-data .offer-start
+{
+  margin-left: 5px;
+}
+
+
+.offer-det-services h4
+{
+  color: #8c2e3e;
+  font-size: 15px;
+  font-family: 'cairo-bold';
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+
+
+.offer-det-services
+{
+  text-align: right;
+  padding-top: 20px;
+}
+
+
+.offer-det-services img , 
+.offer-det-services .icofont 
+{
+  height: 15px;
+  width: 15px;
+  float: right;
+  line-height: 25px;
+  margin-left: 5px;
+  font-size: 13px;
+  color: #d6a294;
+}
+
+.offer-det-services .card 
+{
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.offer-det-services p
+{
+  margin: 0;
+  font-size: 13px;
+}
+
+.offer-det-services ul
+{
+  display: flex;
+}
+
+.offer-det-services ul li
+{
+  margin-left: 10px;
+  height: 25px;
+  line-height: 25px;
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+.offer-det-services img
+{
+  margin-top: 5px;
+}
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//    OFFERS PAGE    //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.offers-page
+{
+  padding: 80px 0 0 0;
+}
+
+.offer-box 
+{
+  background: #fff;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 13px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 2px 0px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+
+.offer-box img 
+{
+  height: 170px;
+}
+
+
+.offer-overlay-data 
+{
+    display: flex;
+    font-size: 11px;
+    font-family: 'cairo-bold';
+    color: #fff;
+    text-align: center;
+    margin-top: -40px;
+    padding: 0;
+    position: relative;
+}
+
+.offer-overlay-data legand
+{
+  font-size: 14px !important;
+}
+
+
+.offer-overlay-data legend
+{
+  font-size: 11px;
+  width: 70px;
+}
+
+
+.offer-overlay-data p 
+{
+    width: initial;
+    display: flex;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.offer-overlay-data p:nth-child(1) 
+{
+    margin-left: 2%;
+    background: #d6a294;
+    border-top-left-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+
+.offer-overlay-data p:nth-child(2) {
+
+    margin-right: 2%;
+    background: #8c2e3e;
+    border-top-right-radius: 5px;
+    font-family: 'cairo';
+    position: absolute;
+    left: 0;
+    text-align: center;
+    padding: 0 5px !important;
+    font-size: 11px;
+    bottom: 0;
+
+}
+
+
+.offer-box .offer-center 
+{
+  font-size: 15px;
+  padding: 10px 10px 0 10px;
+  color: #756765;
+}
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=======================================//    NOTIFICATION  PAGE    //============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.notification-page
+{
+    padding: 70px 0 0 0;
+}
+
+.notification-box
+{
+    background: #fff;
+    padding: 5px 10px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+
+.notification-box .col-9 
+{
+  padding-right: 0;
+}
+
+
+.notification-box p 
+{
+  margin: 0;
+  line-height: 22px;
+  color: #756765;
+}
+
+
+.notification-box img
+{
+  min-width: 45px;
+  min-height: 45px;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//    OFFERS PAGE    //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+
+
+.setting-page 
+{
+  padding: 100px 0 0 0;
+}
+
+
+.setting-ul
+{
+  padding: 0;
+  background: #fff;
+  list-style: none;
+  text-align: initial;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+}
+
+
+.setting-ul li 
+{
+  padding: 10px 20px;
+  border-bottom: 1px solid #f3f3f3;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.setting-ul a 
+{
+    color: #756765;
+}
+.setting-ul li:hover ,
+.setting-ul li:focus , 
+.setting-ul li:active
+{
+  background: #ce8f7e;
+  color: #fff;
+}
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//    PROFILE PAGE    //================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.profile-page
+{
+  padding: 70px 0 0 0;
+}
+
+.user-profile-pic-box
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 2px 0px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+.user-profile-pic-box img
+{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+
+.profile-data-ul
+{
+  padding: 0;
+  background: #fff;
+  list-style: none;
+  text-align: initial;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  overflow: hidden;
+}
+
+
+.profile-data-ul li 
+{
+  padding: 10px 20px;
+  border-bottom: 1px solid #f3f3f3;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.profile-data-ul li label
+{
+  width: 75px;
+  margin: 0;
+  font-family: 'cairo-bold';
+  font-size: 12px;
+  padding: 0;
+  color: #8c2e3e;
+}
+
+
+.profile-data-ul li span 
+{
+  color: #756765;
+  font-size: 12px;
+  width: calc(100% - 75px);
+}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//   USER EDIT  PAGE  //================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.small-pic img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.usr-edit-profile .small-pic 
+{
+  width: 90px;
+  height: 90px;
+  overflow: ;
+}
+
+
+.usr-edit-profile .profile-data-ul li 
+{
+  display: flex;
+  line-height: 35px;
+  padding-bottom: 0;
+}
+
+
+.usr-edit-profile .form-control
+{
+  border-color: #ecedef;
+}
+
+.save-btn 
+{
+    position: absolute;
+    top: -2px;
+    left: 19px;
+    z-index: 99;
+    background: none;
+    border: 0;
+    font-size: 30px;
+    color: #ce8f7e;
+}
+
+.save-btn:focus , .save-btn:active , .save-btn:hover 
+{
+    box-shadow: none;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//    OFFERS PAGE    //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.policy-head p
+{
+    font-size: 14px;
+}
+
+.policy-page
+{
+  padding: 70px 0 0 0;
+}
+
+
+.policy-box 
+{
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: initial;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+.policy-box h4 
+{
+  font-size: 12px;
+  font-family: 'cairo-bold';
+  color: #8c2e3e;
+  margin-bottom: 15px;
+}
+
+
+.policy-box p
+{
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: justify;
+  color: #756765;
+}
+
+
+
+.policy-ul 
+{
+  padding: 0;
+  list-style: none;
+}
+
+
+.policy-ul li
+{
+  color: #756765;
+  background: #fff7f7;
+  margin-bottom: 5px;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ffe7e7;
+}
+
+
+
+
+.add-offer-page .centerpage-servicebox .btn {
+  height: 35px;
+  border-radius: 8px;
+  line-height: 35px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  color: #585858;
+  border: 1px solid #ced4da;
+  box-shadow: none;
+  padding: 0 10px;
+}
+.add-offer-page .centerpage-servicebox {
+  margin: 0;
+}
+.add-offer-page .icofont-rounded-down {
+  font-size: 20px;
+  height: 35px;
+  line-height: 35px;
+  color: #bfbfbf;
+}
+.add-offer-page .card.card-body {
+  box-shadow: none;
+  border: 1px solid #ced4da;
+  padding: 5px 10px;
+}
+.add-offer-page .card.card-body ul {
+  margin: 0;
+  padding-right: 0px;
+  list-style: none;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//    CONTACT PAGE    //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+
+
+
+.contact-logo img 
+{
+  height: 80px;
+  width: 120px;
+  margin: auto;
+}
+
+
+.contact-logo 
+{
+  text-align: center;
+  margin: 20px 20px 40px 20px;
+}
+
+
+.contact-box
+{
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  text-align: initial;
+  margin-bottom: 20px;
+}
+
+
+.contact-ul 
+{
+  padding: 0;
+  list-style: none;
+}
+
+
+.contact-ul img
+{
+  height: 20px;
+  width: 20px;
+  float: right;
+  margin: 5px 5px 5px 10px;
+}
+
+
+.contact-ul li 
+{
+  height: 30px;
+  margin-bottom: 10px;
+  line-height: 30px;
+  color: #756765;
+  font-size: 13px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+.contact-box h4 
+{
+  font-size: 16px;
+  color: #8c2e3e;
+  font-family: 'cairo-bold';
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.contact-box p 
+{
+  font-size: 40px;
+  text-align: center;
+  padding: 0;
+  color: #bd3e67;
+}
+
+
+.contact-box .form-control
+{
+  background: #fff7f7;
+  border-radius: 5px;
+  border-color: #ffe1e1;
+}
+
+
+.contact-box  textarea 
+{
+  height: 100px;
+  resize: none;
+}
+
+
+.contact-box  textarea::placeholder
+{
+  color: #938f8a;
+}
+
+
+
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//    FILTER PAGE    //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.filter-page 
+{
+  padding: 70px 0 0 0;
+}
+
+.filter-page .filter-btn {
+    position: absolute;
+    top: -4px;
+    z-index: 999999;
+    left: 0px;
+    background: none;
+    font-size: 30px;
+    color: #d6a294;
+}
+
+.filter-page .filter-btn:active ,  
+.filter-page .filter-btn:focus ,
+.filter-page .filter-btn:hover
+{
+    box-shadow: none;
+    border: 0;
+}
+
+.filter-head 
+{
+  margin: 20px 0;
+}
+
+
+.filter-head ul 
+{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+
+
+.filter-hd-tab input[type="radio"] ,
+.advfilter-tab input[type="radio"] ,
+.filtpay-tab input[type="radio"]
+{
+  display: none;
+}
+
+.filter-hd-tab label ,
+.advfilter-tab label ,
+.filtpay-tab  label
+{
+  display: inline-block;
+  color: #d6a294;
+  background: transparent;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.filter-hd-tab input[type="radio"]:checked+label ,
+.advfilter-tab input[type="radio"]:checked+label ,
+.filtpay-tab  input[type="radio"]:checked+label
+{
+   background: #d6a294 !important;
+  color: #fff !important;
+}
+
+
+
+.filter-head li
+{
+  width: 33.333%;  
+  margin-left: 5px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 5px; 
+  font-size: 13px;
+    overflow: hidden;
+    border: 1px solid #d6a294;
+}
+
+
+.filter-head li:nth-child(2)
+{
+  margin: 0 5px;
+}
+
+
+.filter-head li:nth-child(3)
+{
+  margin: 0 5px 0 0;
+}
+
+
+
+
+.filter-box  .card {    margin: 10px;  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 2px 0px rgba(0, 0, 0, 0.24); }
+
+
+
+
+.filter-range h4 
+{
+  text-align: right;
+  font-size: 12px;
+  color: #8c2e3e;
+  margin-bottom: 0px;
+    font-weight: 600;
+}
+
+
+.filter-range 
+{
+  margin: 30px 0;
+}
+
+
+.irs-with-grid
+{
+    direction: ltr;
+}
+
+.irs-line 
+{
+  border: 1px solid #bd3e67;
+  border-radius: 25px;
+}
+
+
+
+.irs-bar
+{
+  background: #bd3e67;
+}
+
+
+.irs-slider
+{
+  background: #f5ccc1;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  height: 18px;
+  width: 18px;
+}
+
+.irs-grid-text.js-grid-text-1 {  display: none; }
+.irs-grid-text.js-grid-text-2 {  display: none; }
+.irs-grid-text.js-grid-text-3 {  display: none; }
+
+
+.irs-grid-pol 
+{
+  display: none;
+}
+
+
+.irs-grid 
+{
+    bottom: 7px;
+}
+
+
+.irs-from , .irs-to , .irs-single 
+{
+    color: #ed5565;
+    font-family: 'cairo-bold';
+    font-size: 10px;
+    line-height: 20px;
+    text-shadow: none;
+    padding: 5px;
+    background: none;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+}
+
+.irs-to::before 
+{
+    content: "ريال";
+    left: -15px;
+    position: absolute;
+}
+
+.irs-from::before 
+{
+    content: "ريال";
+    left: -15px;
+    position: absolute;
+}
+
+
+.irs-from::after, .irs-to::after, .irs-single::after {    display: none;  }
+
+.irs-from , .irs-to , .irs-single
+{
+    position: absolute;
+    display: block;
+    top: -4px;
+    left: 0;
+    cursor: default;
+    white-space: nowrap;
+}
+
+
+.irs-grid-text
+{
+    color: #bd3e67;
+    font-weight: 600;
+}
+
+
+.irs-grid-pol.small
+{
+    display: none;
+}
+
+
+.filter-box h4 
+{
+    text-align: right;
+    font-size: 12px;
+    color: #8c2e3e;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+
+
+.filter-box
+{
+  margin-bottom: 30px;
+}
+
+
+.filter-box ul 
+{
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+
+.filter-box li
+{
+  width: 33.333%;
+  border: 1px solid #d6a294;
+  margin-left: 5px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 5px;
+  color: #d6a294;
+  background: #fff;
+  font-size: 13px;
+}
+
+
+.filter-box li:last-child
+{
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+
+.filter-box li:nth-child(2) 
+{
+  margin-right: 5px;
+}
+
+.filt-ext-adv li {
+  width: 50% !important;
+}
+
+
+
+
+.filter-services ul
+{
+  padding: 0;
+  list-style: none;
+}
+
+.filter-services li
+{
+  background: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+
+.answer
+{
+    display: block;
+    position: relative;
+    padding-left: 29px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+.answer input
+{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+/* Create a custom checkbox */
+.checkmark 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color:  #bd3e67;
+    border-radius: 50%;
+}
+
+
+/* On mouse-over, add a grey background color */
+.answer:hover input ~ .checkmark
+{
+    background-color: #bd3e67;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.answer input:checked ~ .checkmark
+{
+    background-color:  #bd3e67;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after 
+{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.answer input:checked ~ .checkmark:after
+{
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.answer .checkmark::after 
+{
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background: #bd3e67;
+    content: "\2713";
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 1px;
+    border-radius: 50%;
+}
+
+
+
+
+.filter-services label 
+{
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
+.answer .checkmark::before
+{
+
+    height: 16px;
+    width: 16px;
+    content: "";
+    background: #fff;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    z-index: 0;
+    border-radius: 50%;
+}
+
+
+
+.filter-services  ul 
+{
+    padding-top: 20px;
+    display: block;
+    text-align: right;
+}
+
+.filter-services  ul li 
+{
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+.list
+{
+  display: block !important;
+}
+
+.list li 
+{
+  display: block;
+  width: 100%;
+  border: 0 !important;
+}
+
+.list li:hover , 
+.list li:focus 
+{
+  background: none !important;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*======================================//    CENTER OFFERS PAGE   //==============================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.offer-edit-box 
+{
+    padding: 5px 10px;
+}
+
+
+.offer-edit-box .edit-offer-btn 
+{
+    width: 55px;
+    float: left;
+    margin: 0 0 5px 0;
+    height: 30px;
+    padding: 0;
+    line-height: 26px;
+}
+
+.head-logo {
+    display: flex;
+}
+
+.head-addico , 
+.head-notiico 
+{
+  font-size: 20px !important;
+  margin: ;
+}
+
+
+.head-notiico 
+{
+  margin-right: 5px;
+}
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*======================================//    CENTER OFFERS  EDIT  PAGE   //=======================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.add-offer-page 
+{
+  padding: 50px 0 0 0;
+}
+
+.add-offer-pic
+{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.small-pic {
+    height: 80px;
+    width: 80px;
+    padding: 1px;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+ .small-pic  .input-file {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.add-offer-page textarea
+{
+  height: 100px;
+  resize: none;
+  padding: 0 10px;
+}
+
+.add-offer-page textarea::placeholder 
+{
+  color: #747474;
+}
+
+.add-offer-page .btn.ahtam-light-btn
+{
+  color: #fff;
+  font-weight: 600;
+}
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*======================================//    CENTER ADD SERVICE   PAGE   //=======================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.add-service-page
+{
+    padding: 70px 0 0 0;
+}
+
+
+.add-service-page .ahtam-light-btn 
+{
+    color: #fff !important;
+}
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=========================================//  CENTER  SERVICEs   PAGE   //========================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.center-services-page
+{
+  padding: 70px 0 0 0;
+}
+
+
+.center-servicebox 
+{
+  padding: 10px;
+  background: #fff;
+  text-align: initial;
+  display: flex;
+  height: 60px;
+  color: #756765;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  margin-bottom: 8px;
+}
+
+
+.center-servicebox p
+{
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  font-size: 13px;
+  width: 70%;
+}
+
+
+.center-servicebox ul
+{
+  list-style: none;
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.center-servicebox .icofont
+{
+  float: right;
+  margin-left: 10px;
+  height: 20px;
+  line-height: 20px;
+  width: 15px;
+  text-align: center;
+}
+
+
+.center-servicebox img 
+{
+  height: 11px;
+  width: 15px;
+  margin: 0;
+  float: right;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+
+.center-servicebox li 
+{
+  height: 20px;
+  line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=============================================//   CENTER   PROFILE    //=========================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.ico-pen
+{
+    font-size: 18px !important;
+    margin-left: 18px !important;
+    position: absolute;
+    top: -5px;
+    left: 30px;
+}
+
+
+.center-profile-page
+{
+  padding: 70px 0 0 0;
+}
+
+
+.centerprofile-mainpicbox 
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.centerprofile-mainpicbox img
+{
+  height: 90px;
+  width: 92px;
+}
+
+
+.centerprofile-picsbox 
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+
+.centerprofile-picsbox img
+{
+  width: 50px;
+  height: 50px;
+}
+
+
+.centerprofile-picsbox ul 
+{
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+
+
+.centerprofile-picsbox li 
+{
+  width: 20%;
+}
+
+
+.center-social-box 
+{
+  text-align: initial;
+  margin: 15px 0;
+}
+
+
+.center-social-box h4
+{
+  font-size: 13px;
+  font-weight: 600;
+  color: #8c2e3e;
+    margin: 0 5px 10px;
+}
+
+
+.center-profile-page .profile-data-ul 
+{
+  margin-bottom: 30px;
+}
+
+
+.center-social-insider
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 0;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  text-align: initial;
+  margin-bottom: 15px;
+}
+
+
+.center-social-insider ul 
+{
+  list-style: none;
+  padding: 0;
+  display: ;
+  margin: 0;
+}
+
+
+.center-social-insider li 
+{
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #f3f3f3;
+  padding: 0 10px;
+}
+
+
+.center-social-insider li label
+{
+  width: 85px;
+  font-weight: 600;
+  margin: 0;
+  color: #8c2e3e;
+}
+
+
+.center-social-box span
+{
+  color: #4a4a4a;
+  text-align: left !important;
+  float: left;
+}
+
+
+.center-social-insider li:last-child
+{
+  border: 0;
+}
+
+
+.centerprofile-worktime
+{
+  text-align: initial;
+  margin: 15px 0;
+}
+
+
+.centerprofile-worktime h4
+{
+  font-size: 13px;
+  font-weight: 600;
+  color: #8c2e3e;
+    margin: 0 5px 10px;
+}
+
+
+.centerprofile-worktime ul 
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 0;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  text-align: center;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 10px;
+  font-size: 12px;
+  color: #4a4a4a;
+}
+
+
+.centerprofile-worktime label
+{
+  width: 60px;
+  text-align: right;
+}
+
+.centerprofile-worktime span 
+{
+    margin-left: 5px;
+}
+
+.centerprofile-pay h4 
+{
+  font-size: 13px;
+  font-weight: 600;
+  color: #8c2e3e;
+    margin: 0 5px 10px;
+}
+
+
+.centerprofile-pay 
+{
+  text-align: initial;
+  margin: 15px 0;
+}
+
+
+.centerprofile-pay ul
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 0;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+  text-align: center;
+    margin: auto;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 10px;
+  font-size: 13px;
+  color: #4a4a4a;
+  display: flex;
+}
+
+.centerprofile-pay li 
+{
+    margin-left: 20px;
+    position: relative;
+}
+
+.centerprofile-pay li::after
+{
+    content: "-";
+    font-weight: 800;
+    position: absolute;
+    left: -13px;
+}
+
+.centerprofile-pay li:last-child::after
+{
+    display: none;
+}
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*==========================================//   CENTER  EDIT   PROFILE    //======================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.center-editprofile .form-control
+{
+      border-color: #e4e4e4;
+}
+
+.centerprofile-mainpicbox .small-pic img
+{
+  width: 77px;
+  height: 77px;
+}
+
+.center-editprofile .centerprofile-picsbox p 
+{
+  font-size: 13px;
+  margin: 0 0 3px 0;
+}
+
+
+.centerprofile-picsbox .small-pic 
+{
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+}
+
+.centerprofile-picsbox .small-pic img
+{
+  height: 45px;
+  width: 45px;
+}
+
+.center-editprofile .profile-data-ul li 
+{
+  display: flex;
+  line-height: 30px;
+    padding-bottom: 0;
+}
+
+
+.center-editprofile .profile-data-ul li .form-control
+{
+  height: 30px;
+}
+
+.center-editprofile .center-social-insider li 
+{
+    height: 50px;
+    padding: 4px 10px;
+}
+
+.center-editprofile .center-social-insider .form-control
+{
+  height: 30px;
+  margin: 5px 0;
+}
+
+
+
+.center-editprofile .centerprofile-worktime .form-control
+{
+  height: 30px;
+  width: 69px;
+  font-size: 11px;
+  padding: 0 5px;
+  margin: 0 5px;
+  direction: rtl;
+    border-radius: 5px;
+}
+
+
+.center-editprofile .centerprofile-worktime li 
+{
+  display: flex;
+}
+
+
+.center-editprofile .centerprofile-worktime span 
+{
+  display: flex;
+  direction: initial;
+}
+
+
+.center-editprofile .centerprofile-worktime li 
+{
+  line-height: 30px;
+}
+
+
+.center-editprofile .centerprofile-worktime span legand
+{
+  float: right;
+}
+
+.center-editprofile .centerprofile-worktime span legand 
+{
+  float: right;
+}
+
+
+.center-editprofile .centerprofile-pay ul
+{
+  display: block;
+    text-align: right;
+}
+
+
+.center-editprofile .centerprofile-pay li::after
+{
+  display: none;
+}
+
+.center-editprofile .centerprofile-pay .checkmark 
+{
+  top: 8px;
+}
+
+
+.center-editprofile .centerprofile-pay li
+{
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px !important;
+}
+
+
+.center-editprofile .centerprofile-pay li label
+{
+  font-size: 15px;
+}
+
+
+.center-editprofile .centerprofile-pay .checkmark::after 
+{
+  padding: 0;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*==========================================//     CENTER RESERVATIONS   //========================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+.date-slider .section {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d6a294;
+}
+
+.no-p .cenreserv-pgebody {
+    padding-top:20px !important;
+}
+
+.no-p .centerreservtions-tabs ul { margin: 0;}
+
+.date-slider .month-cell.cell
+{
+    width: 60px;
+    padding: 5px 8px;
+    background: #fff;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    border: 1px solid #fcd8ce;
+}
+
+.date-slider .range-calendar .months .cell.selected 
+{
+    border-color: #d6a294;
+
+}
+
+
+.date-slider .range-calendar .calendar .cell {
+
+    height: 45px;
+    padding: 0;
+     background: #fff;
+    border-right: 1px solid #fcd8ce;
+    width: 50px !important;
+}
+
+.date-slider .range-calendar .cell .day-number {
+    font-size: 17px !important;
+}
+
+
+.date-slider .range-bar {
+    width: 50px !important;
+
+}
+
+
+.reservations-timeline
+{
+  padding: 15px 0;
+}
+
+
+.timeline-ul 
+{
+  padding: 0;
+  width: 80%;
+  float: left;
+  list-style: none;
+  border-right: 5px solid #d6a294;
+  padding-right: 20px;
+}
+
+
+.timeline-timespan
+{
+    position: absolute;
+    right: -70px;
+    top: 42%;
+    color: #d6a294;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.timeline-ul .centserv-pgbox
+{
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 1px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+.timeline-ul .centserv-pgbox ul
+{
+  display: flex;
+  font-size: ;
+}
+
+
+.timeline-ul .centserv-pgbox ul li 
+{
+  font-size: 11px !important;
+  margin-left: 10px;
+}
+
+.timeline-ul  .centserv-pgbox p 
+{
+    font-size: 11px;
+}
+
+
+.timeline-ul .centserv-pgbox ul .icofont , 
+.timeline-ul .centserv-pgbox ul  img 
+{
+  margin-left: 5px;
+}
+
+
+.timeline-ul .centserv-pgbox ul li:nth-child(2)
+{
+  margin-left: 0;
+}
+
+
+.timeline-ul .centserv-pgbox
+{
+  margin: 0;
+}
+
+
+
+.timeline-ul .timeline-li
+{
+  margin-bottom: 30px;
+    position: relative;
+}
+
+
+.timeline-ul .timeline-li::before 
+{
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: #d6a294;
+    border-radius: 50%;
+    position: absolute;
+    right: -31px;
+    top: 42%;
+    border: 3px solid #fff;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*==========================================//  CENTER RESERVICES DETAILS  //======================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+
+
+.center-reservbage-details 
+{
+  padding: 70px 0 0 0;
+}
+
+.centerreserv-userbox 
+{
+  background: #fff;
+  border-radius: 10px;
+  text-align: initial;
+  padding: 10px;
+  margin-bottom: 15px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+.centerreserv-userbox p 
+{
+  margin: 0;
+  font-size: 13px;
+    color: #a5a2a2;
+}
+
+
+.centerreserv-userbox label
+{
+  color: #8c2e3e;
+  font-family: 'cairo-bold';
+  font-size: 14px;
+  margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.centerreserv-databox
+{
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: initial;
+    padding: 10px 0;
+    font-size: 13px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+}
+
+.centerreserv-databox .insider
+{
+    border-bottom: 1px solid #f3f3f3;
+    padding: 5px 10px;
+}
+
+.centerreserv-databox img 
+{
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+
+
+.centerreserv-databox ul
+{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  color: #a5a2a2;
+}
+
+
+.centerreserv-databox ul li
+{
+  margin-left: 20px;
+}
+
+
+.centerreserv-databox span 
+{
+  margin: 0 3px;
+}
+
+
+.centerreserv-databox p 
+{
+  margin: 0 0 5px 0;
+  color: #756765;
+}
+
+
+
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*============================================//    CENTER   REQUESTS    //========================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+
+.center-reservations-page
+{
+  padding: 51px 0 0 0;
+}
+
+
+.centerreservtions-tabs
+{
+  background: #d6a294;
+}
+
+.center-reservations-page .container
+{
+  padding: 0;
+}
+
+.centerreservtions-tabs ul 
+{
+  list-style: none;
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding: 0;
+  font-family: 'cairo-bold';
+}
+
+.centerreservtions-tabs ul a 
+{
+    width: 33.33%;
+}
+
+.centerreservtions-tabs li
+{
+  height: 40px;
+  line-height: 40px;
+    width: 33.33%;
+}
+
+
+.centreserv-activetab 
+{
+  border-bottom: 2px solid #8c2e3e;
+}
+
+
+.cenreserv-pgebody
+{
+  padding: 15px;
+}
+
+
+.centserv-pgbox 
+{
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: initial;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.12),0px 0px 1px 0px rgba(0, 0, 0, 0.24);
+}
+
+
+.centserv-pgbox img
+{
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+}
+
+
+.centserv-pgbox ul 
+{
+  list-style: none;
+  padding: 0;
+    margin: 0;
+}
+
+.centserv-pgbox li 
+{
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.centserv-pgbox p
+{
+  margin: 0 0 4px 0;
+  color: #8c2e3e;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+
+.centserv-pgbox ul .icofont
+{
+  float: right;
+  margin-left: 10px;
+    line-height: 22px;
+}
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*=============================================//    CENTER   CANCELD   //=========================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+
+
+.date-p
+{
+  font-size: 12px !important;
+  color: #756765 !important;
+  font-weight: 500 !important;
+  line-height: 10px;
+  margin: 12px 5px 0 0 !important;
+}
+
+
+.date-p .icofont 
+{
+  float: right;
+  line-height: 10px;
+  margin-left: 5px;
+}
+
+
+.centserv-pgbox.canceld
+{
+  position: relative;
+}
+
+.canceld-sp
+{
+  position: absolute;
+  top: calc( 50% - 7.5px);
+  left: 20px;
+  font-size: 10px;
+  color: #b6b6b6;
+}
+
+
+
+
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*============================================//  DATE RENGE    //=================================================*/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+/*******************************************************************************************************************/
+
+.range-calendar .months .cell.selected 
+{
+    background-color: #d6a294;
+    border-radius: 5px;
+}
+
+.range-calendar .months .cell.current .bullet 
+{
+    display: none;
+}
+
+.range-bar
+{
+    background: #d6a294 !important;
+    width: 60px !important;
+}
+
+.range-calendar .calendar .cell
+{
+    padding:0px;
+}
+
+.range-calendar .calendar .cell
+{
+    padding: 0px;
+    height: 60px;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.ui-resizable-handle.ui-resizable-e
+{
+    display: none !important;
+}
+
+.range-calendar .calendar .cell 
+{
+/*
+    border-right: 1px solid #d6a294;
+    border-top: 1px solid #d6a294;
+    border-bottom: 1px solid #d6a294;
+*/
+    color: #d6a294;
+    width: 60px !important;
+    padding: 5px 0;
+}
+
+.range-calendar .calendar .cell .day-number {
+    font-size: 20px;
+}
+
+
+.range-calendar .calendar .cell .day {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+.modal-header ul 
+{
+  display: flex;
+  width: 100%;
+}
+
+.modal-header ul .modal-li1
+{
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  color: #8c2e3e;
+}
+
+.modal-header ul .modal-li2
+{
+  width: 70%;
+}
+
+.modal-header
+{
+  padding-bottom: 0;
+}
+
+.modal-body
+{
+  padding: 0 10px;
+}
+
+.modal-body .col-md-12 
+{
+  padding: 0;
+}
+
+.modal-body .section 
+{
+  padding: 0;
+  margin: 0;
+}
+
+#cal1 
+{
+  padding: 0;
+}
+
+.modal-header .list
+{
+  text-align: center !important;
+}
+
+.modal-header .list li
+{
+  width: 100%;
+  text-align: center;
+  height: 25px !important;
+  line-height: 25px !important;
+}
+
+
+/*
+.my-calender .modal-dialog 
+{
+    margin-top: 30%;
+}
+*/
+
+.my-calender .modal-dialog {
+    position: absolute;
+    top: calc( 50% - 136px);
+    left: calc( 50% - 160px);
+    width: 304px;
+    height: 272px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/******  SHARE  APP ************/
+
+
+.share-box {
+  padding: 20px;
+}
+
+.share-box h4 {
+  font-size: 17px;
+}
+
+.share-icons {
+  list-style: none;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.share-icons a {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 35px;
+}
+
+
+.share-icons .btn {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+}
+
+.share-icons .facebook {
+  background-color: #3b5998;
+}
+
+.share-icons .google {
+  background-color: #dd4b39;
+}
+
+.share-icons .linkedin {
+  background-color: #0077b5;
+}
+
+.share-icons .twitter {
+  background-color: #1da1f2;
+}
+
+
+.share-icons i {
+  float: right;
+  line-height: 40px;
+  padding-left: 10px;
+width: 30px;
+font-size: 18px;
+border-left: 1px solid #c6c6c6;
+}
+
+.reservation-butns {
+    display: flex;
+    margin: 40px;
+}
+
+.reservation-butns .btn {
+    margin: 0 10px;
+}
+
+
+
+
+/*********** edit center profile days ******/
+.edit-days label {
+  width: 116px;
+  margin-left: 0px;
+}
+.edit-days .answer {
+  font-size: 14px;
+  width: 96% !important;
+}
+.edit-days .checkmark {
+  border-radius: 0;
+  margin-top: 5px;
+}
+.edit-days .answer .checkmark::before {
+  top: 2px;
+  border-radius: 0;
+}
+.edit-days .answer .checkmark::after {
+  border-radius: 0;
+  top: 0;
+  padding: 0;
+  line-height: 20px;
+}
+
+
+.editworktimes {
+    display: block !important;
+}
+
+.editworktimes label {
+    width: 100% !important;
+    display: block;
+}
+
+.editworktimes span {
+    text-align: right;
+}
+
+.editworktimes .input-append {
+    width: 80%;
+    margin: 4px 0 0 0;
+}
+
+.editworktimes .input-append input {
+    width: 100% !important;
+    margin: 0 !important;
+    height: 35px !important;
+    line-height: 35px;
+    padding-right: 40px !important;
+    font-size: 15px !important;
+}
+
+.editworktimes legand {
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+

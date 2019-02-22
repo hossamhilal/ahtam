@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="css/icofont.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+      
+    <link rel="stylesheet" id="rangecalendar-style-css" href="css/range-calender-style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="rangecalendar-style-css" href="css/rangecalendar.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css">
+      
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+      
+    <link rel="stylesheet" href="css/style.css">
+
+    <title> AHTAM    </title>
+  </head>
+    
+  
+  <body class="BG-COLOR">
+
+<!--========================================================================================================================*/
+/*====================================================//  MAIN HEADER //====================================================*/
+/*=========================================================================================================================-->
+
+<header class="ahtam-header">
+      <div class="container">
+         <div class="head-logo back-sign">
+             <p>   بيانات المركز   </p>
+             <a href="center-setting.html">  <i class="icofont icofont-simple-left ico-return"></i>  </a>
+             
+         </div>
+         <div class="menu">
+            <a href="#" id="click-a"><i class="icofont icofont-navigation-menu"></i></a>
+         </div>
+      </div>
+    <div class="nav-overlay"> </div>
+      <div class="nav">
+         <ul>
+                <i class="icofont icofont-simple-left ico-close"></i>
+                <li> <a class="dropdown-item" href="center-reguests.html"> <img src="images/site-ico.png">   طلبات الحجز  </a></li>
+                <li> <a class="dropdown-item" href="center-reservations.html"> <img src="images/services-ico.png">  حجوزاتى   </a></li>
+                <li> <a class="dropdown-item" href="center-services.html"><img src="images/notif-ico.png">  الخدمات     </a></li>
+                <li> <a class="dropdown-item" href="center-notifications.html"><img src="images/notif-ico.png">  الاشعارات    </a></li>
+                <li> <a class="dropdown-item" href="center-offers.html"> <img src="images/offer-ico.png">  العروض  </a></li>         
+                <li> <a class="dropdown-item" href="center-packages.html"> <img src="images/pagkage-ico.png"> الباقات    </a></li>           
+                <li> <a class="dropdown-item" href="center-profile.html"><img src="images/cent-data-ico.png">  البيانات    </a></li>            
+                <li> <a class="dropdown-item" href="center-setting.html"><img src="images/sett-ico.png">  الاعدادات    </a></li>
+         </ul>
+      </div>
+
+</header>
+
+<!--========================================================================================================================*/
+/*====================================================//     BODY     //====================================================*/
+/*=========================================================================================================================-->
+      
+      
+<section class="center-profile-page center-editprofile">
+    <div class="container">
+            
+  <form> 
+      
+      <button class="btn save-btn" type="submit"> <i class="icofont icofont-check-alt"></i>  </button>
+      
+        <div class="centerprofile-mainpicbox">       
+                  <div class="small-pic">
+                      <input type='file' class="input-file">
+                      <img class="input-image img-responsive" src="images/add-offer-pic.png" width="100%">
+                  </div>       
+        </div>
+        
+        <div class="centerprofile-picsbox">
+             <p> إضافة معرض صور لمركزك  </p>
+             <p>  يمكنك اضافة حتى (5 صور ) </p>
+             <ul>
+                 <li>       
+                    <div class="small-pic">
+                       <input type='file' class="input-file">
+                       <img class="input-image img-responsive" src="images/add-offer-pic.png" width="100%">
+                    </div>       
+                 </li>
+                 
+                 <li>       
+                    <div class="small-pic">
+                       <input type='file' class="input-file">
+                       <img class="input-image img-responsive" src="images/add-offer-pic.png" width="100%">
+                    </div>       
+                 </li>  
+                 
+                 <li>       
+                    <div class="small-pic">
+                       <input type='file' class="input-file">
+                       <img class="input-image img-responsive" src="images/add-offer-pic.png" width="100%">
+                    </div>       
+                 </li>
+                 
+                 <li>       
+                    <div class="small-pic">
+                       <input type='file' class="input-file">
+                       <img class="input-image img-responsive" src="images/add-offer-pic.png" width="100%">
+                    </div>       
+                 </li>
+                 
+                 <li>       
+                    <div class="small-pic">
+                       <input type='file' class="input-file">
+                       <img class="input-image img-responsive" src="images/add-offer-pic.png" width="100%">
+                    </div>       
+                 </li>
+             </ul>       
+        </div>
+
+           
+        <ul class="profile-data-ul">
+
+           <li>   <label>   اسم المركز </label>  <span> <input  class="form-control" type="text" placeholder="الاسم "> </span>  </li>
+           <li>   <label> رقم الجوال </label>    <span> <input  class="form-control" type="text" placeholder=" رقم الجوال "> </span>   </li>
+           <li>   <label>  المدينة  </label>     <span> <input  class="form-control" type="text" placeholder="المدينة "> </span> </li>
+           <li>   <label> كلمة المرور  </label>  <span> <input  class="form-control" type="password" placeholder="كلمة المرور "> </span>  </li>
+
+        </ul>
+           
+            
+        <div class="center-social-box">
+          <h4> مواقع التواصل </h4>
+            
+            <div class="center-social-insider">
+             
+                <ul>
+                   <li> <label>  فيس بوك </label> <span><input  class="form-control" type="text" placeholder="facebook ">  </span>  </li>
+                   <li> <label> تويتر    </label> <span><input  class="form-control" type="text" placeholder="twitter ">  </span> </li>
+                   <li> <label>  انستجرام </label> <span><input  class="form-control" type="text" placeholder="instagram ">  </span> </li>
+                </ul>
+            
+            </div>
+        
+        </div>
+        
+        <div class="centerprofile-worktime edit-days">
+          <h4> أيام العمل </h4>
+        
+            <ul>
+                
+               <li class="editworktimes">  
+                   <label>  مواعيد العمل    </label> 
+                   <span>                      
+                        <div id="datetimepicker10" class="input-append">
+                            <input class="form-control" data-format="hh:mm:ss" type="text">
+                            <span class="add-on">
+                                <i class="icofont icofont-ui-calendar icon-th"></i>
+                            </span>
+                        </div>
+                        <legand> من </legand>
+                   </span>  
+                   <span>                        
+                        <div id="datetimepicker11" class="input-append">
+                            <input class="form-control" data-format="hh:mm:ss" type="text">
+                            <span class="add-on">
+                                <i class="icofont icofont-ui-calendar icon-th"></i>
+                            </span>
+                        </div>
+                        <legand> إلى </legand>
+                   </span> 
+               </li>
+                
+               <li>  
+                    <label class="answer"> السبت 
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+               </li>
+                <li>
+                    <label class="answer"> الاحد 
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="answer"> الاثنين
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="answer"> الثلاثاء
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="answer"> الاربعاء 
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="answer"> الخميس
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="answer"> الجمعة 
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                
+               <!-- <li>  
+                   <label>  الاثنين   </label> 
+                   <span> <input  class="form-control" type="text" placeholder="8:00  صباحا  "> <legand> من </legand> </span>  
+                   <span> <input  class="form-control" type="text" placeholder="6:00 مساء "> <legand> إلى </legand> </span> 
+               </li>
+                
+               <li>  
+                   <label>  الثلاثاء   </label> 
+                   <span> <input  class="form-control" type="text" placeholder="8:00  صباحا  "> <legand> من </legand> </span>  
+                   <span> <input  class="form-control" type="text" placeholder="6:00 مساء "> <legand> إلى </legand> </span> 
+               </li>
+                
+               <li>  
+                   <label>  الأربعاء   </label> 
+                   <span> <input  class="form-control" type="text" placeholder="8:00  صباحا  "> <legand> من </legand> </span>  
+                   <span> <input  class="form-control" type="text" placeholder="6:00 مساء "> <legand> إلى </legand> </span> 
+               </li>
+                
+               <li>  
+                   <label>  الخميس   </label> 
+                   <span> <input  class="form-control" type="text" placeholder="8:00  صباحا  "> <legand> من </legand> </span>  
+                   <span> <input  class="form-control" type="text" placeholder="6:00 مساء "> <legand> إلى </legand> </span> 
+               </li>
+                 -->
+            </ul>
+        </div>
+        
+        <div class="centerprofile-pay">
+          <h4> طرق الدفع </h4>
+        
+            <ul>
+               <li> 
+                   <label class="answer"> كاش 
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                   </label>
+               </li>
+
+               <li> 
+                   <label class="answer"> فيزا كارد 
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                   </label>
+               </li>
+               
+                <li> 
+                   <label class="answer"> ماستر كارد
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                   </label>
+               </li>
+
+            </ul>
+        </div>
+</form>
+          
+    </div>           
+</section>
+      
+      
+    
+      
+      
+      
+   
+  
+      
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+      
+    <script src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="js/moment+langs.min.js"></script>
+    <script type="text/javascript" src="js/jquery.rangecalendar.js"></script>
+      
+    <script src="js/ion.rangeSlider.js"></script>
+    <script src="js/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="https://maps.google.com/maps/api/js"></script>
+
+    <script src="js/edit.js"></script>
+    
+    <script>
+        $(function () {
+            $("#range").ionRangeSlider({
+                hide_min_max: true,
+                keyboard: true,
+                min: 10,
+                max: 10000,
+                from: 3000,
+                to: 7000,
+                type: 'double',
+                step: 1,
+           //   prefix: "$",
+                grid: true
+            });
+        });
+    </script>
+      
+    <script>
+        // Regular map
+        function regular_map() {
+            var var_location = new google.maps.LatLng(40.725118, -73.997699);
+            var var_mapoptions = {
+                center: var_location,
+                zoom: 14
+            };
+            var var_map = new google.maps.Map(document.getElementById("map-container"),
+                var_mapoptions);
+            var var_marker = new google.maps.Marker({
+                position: var_location,
+                map: var_map,
+                title: "New York"
+            });
+        }
+        // Initialize maps
+        google.maps.event.addDomListener(window, 'load', regular_map);        
+    </script>
+      
+    
+    <script>
+        $(function () {
+            $('#datetimepicker10').datetimepicker({
+                pickDate: false
+            });
+
+            $('#datetimepicker11').datetimepicker({
+                 pickDate: false
+            });
+        });
+    </script>
+  </body>
+</html>   
+      
+      
